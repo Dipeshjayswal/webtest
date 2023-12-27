@@ -7,12 +7,14 @@
 <p>Click to trigger a function that will output "Hello World":</p>
 
 <button onclick="myFunction()">Click me</button>
+<!-- <canvas id="myCanvas" width="200" height="100" style="border: 1px solid #000;" onclick="myFunction('thisURL')"></canvas> -->
 
 <p id="demo"></p>
 
 <script>
 function myFunction() {
-    window.open('https://www.marriott.com/event-reservations/reservation-link.mi?id=1698413213053&key=GRP&app=resvlink','_blank');
+    console.log("my fuction are called")
+    window.open('https://www.marriott.com/event-reservations/reservation-link.mi?id=1698413213053&key=GRP&app=resvlink','_blank').focus();
 }
 </script>
 
